@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+}
+
+.grid-col{
+    grid-auto-flow: column;
+}
+
+.grid-col-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.text-2xl{
+    font: var(--h1-size);
+}
+
+.text-xl{
+    font: var(--h2-size);
+}
+
+.text-lg{
+    font: var(--h3-size);
+}
+
+.text{
+    font: var(--text-sm);  
+}
